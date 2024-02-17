@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>ハムスターのホームページ</title>
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="navtext-container">
+    <div class="navtext"></div>
+  </div>
+  <input type="checkbox" class="menu-btn" id="menu-btn">
+  <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li class="top"><a href="index.html">トップ</a></li>
+    <li><a href="hamprof.html">プロフィール</a></li>
+    <li><a href="syasin.html">写真集</a></li>
+    </ul>
+</header>
+<br>
+<br>
+<br>
+<br>
+<img src="noindex/syasin_no_syasin/IMG_0972.JPG" width="250" height="350"><br>
+<img src="noindex/syasin_no_syasin/IMG_20221106_144818_01.jpg" width="350" height="250"><br>
+<img src="noindex/syasin_no_syasin/PXL_20230505_043530335.jpg" width="350" height="250"><br>
+<img src="noindex/syasin_no_syasin/PXL_20230531_092559822.jpg" width="302" height="403"><br>
+<img src="noindex/syasin_no_syasin/PXL_20230820_002508705.jpg" width="403" height="302"><br>
+<img src="noindex/syasin_no_syasin/PXL_20231223_074405738.jpg" width="302" height="403"><br>
+<img src="noindex/syasin_no_syasin/PXL_20240102_004227610.jpg" width="297" height="202"><br>
+<img src="noindex/syasin_no_syasin/壁紙.jpg" width="297" height="202"><br>
+
+<!-- START ----->
+<br>
+<table border="0" cellspacing="0" cellpadding="1">
+  <tr>
+    <td>
+<form method="POST" action="comment_syasin.php?rep=1" target="com">
+<span style="font-size:18px;font-weight:100;color:#ff0000">� </span><b>コメント(WIP)</b> 100文字まで <br>
+<input type="text" id="comment" name="comment" size="80" style="width:535;border:1px solid #00ccff">
+<input type="submit" id="submit" value=" 送信 " style="width:54"> 
+    </td></form>
+  </tr>
+  <tr>
+    <td>
+<div id="commentv" style="font-size:13px;line-height:15px;color:#666699;width:580px;height:160px;border:1px solid #00ccff;padding:8px;overflow-y:scroll;display:none;"></div>
+<iframe name="com" src="comment_syasin.php" id="com" style="width:301px;height:201px;border:0px;padding:0px;overflow:hidden;display:none;"></iframe>
+    </td>
+  </tr>
+</table>
+<br>
+<!-- END ----->
+
+</body>
+
+</html>
