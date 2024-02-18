@@ -1,46 +1,52 @@
 <!DOCTYPE html>
-<html lang="ja"><head>
-<meta http-equiv="content-type" content="text/html; charset=Shift_JIS"><meta name="viewport" content="width=320">
-  
+<html lang="ja">
 
-	<meta charset="shift_jis">
-    <meta http-equiv="Content-Language" content="ja">
-    
-    <script type="text/javascript" src="Webrakugaki/canvas.js"></script>
-    <script src="Webrakgaki/easeljs-0.6.0.min.js"></script>
-    
+<head>
+  <meta name="format-detection" content="telephone=no" />
+  <meta http-equiv="content-type" content="text/html; charset=Shift_JIS">
+  <meta name="viewport" content="width=320">
+  <link rel="icon" href="/noindex/favicon.jpg" />
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Language" content="ja">
+  <link rel="icon" type="image/png" href="PXL_20231129_221440947-EDIT.jpg" />
+  <script type="text/javascript" src="Webrakugaki/canvas.js"></script>
+  <script src="Webrakgaki/easeljs-0.6.0.min.js"></script>
 
 
-    <title>Web��������</title>
-  </head>
-  <body style=" background-color: white;font-family:'Hiragino Sans' ">
-  
-  <!-- 
+
+  <title>落書き</title>
+</head>
+
+<body style=" background-color: white;font-family:'Hiragino Sans' ">
+
   <br>
   <button style="color:white;background-color:black;width:50px;height:50px;" onclick="black()">black</button>
-  <button style="color:white;background-color:red;width:50px;height:50px;"onclick="red()">red</button>
+  <button style="color:white;background-color:red;width:50px;height:50px;" onclick="red()">red</button>
 
-<br>
-<br>
--->
-        <canvas id="myCanvas" width="3000" height="3000" style="width:2041px;height:1011px; color: #333333; background: #ffffff none repeat scroll 0% 0%; border: 1px solid #cccccc; "></canvas>
-        
-        
-  
+  <br>
+  <br>
+  -->
+  <canvas id="myCanvas" width="3000" height="3000"
+    style="width:2041px;height:1011px; color: #333333; background: #ffffff none repeat scroll 0% 0%; border: 1px solid #cccccc; "></canvas>
 
-    <script>
+
+
+
+  <script>
     init();
-    
-            var sW, sH, s;
-            sW = window.innerWidth - 25;
-            sH = window.innerHeight - 25;
 
-            let esW;
-            let esH;
-            
-            var css = 'width:' + sW + 'px;height:' + sH + 'px; color: #333333; background: #ffffff none repeat scroll 0% 0%; border: 1px solid #cccccc; ';
-            document.getElementById("myCanvas").setAttribute('style', css);
-            
-    </script>
-     
-</body></html>
+    var sW, sH, s;
+    sW = window.innerWidth - 25;
+    sH = window.innerHeight - 25;
+
+    let esW;
+    let esH;
+
+    var css = 'width:' + sW + 'px;height:' + sH + 'px; color: #333333; background: #ffffff none repeat scroll 0% 0%; border: 1px solid #cccccc; ';
+    document.getElementById("myCanvas").setAttribute('style', css);
+
+  </script>
+
+</body>
+
+</html>
