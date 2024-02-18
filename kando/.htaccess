@@ -1,4 +1,4 @@
 AuthType Basic
-AuthName "[認証名]"
-AuthUserFile ".htpasswdファイルの場所"
+AuthName "kitano-kando-Downloads"
+AuthUserFile "https://hamster-crab.github.io/kando/.htpasswd"
 require valid-user
