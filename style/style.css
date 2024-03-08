@@ -173,10 +173,11 @@ hr {
 
 .hut {
   background-color: grey !important;
-
+  height: 120px;
 }
 
 .icn {
-  font-size: large;
+  font-size: 100px;
   color: rgb(245, 69, 69);
+  text-align: center;
 }
