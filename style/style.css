@@ -170,3 +170,13 @@ hr {
   border-style: double;
   border-color: rgb(0, 0, 0);
 }
+
+.hut {
+  background-color: grey !important;
+
+}
+
+.icn {
+  font-size: large;
+  color: rgb(245, 69, 69);
+}
